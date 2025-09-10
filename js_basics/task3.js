@@ -4,8 +4,7 @@
 const personAge = 18;
 
 //Check is person adult
-let isAdult;
-isAdult = personAge >= 18;
+const isAdult = personAge >= 18;
 
 //Show the value of bool variable
 console.log("\"isAdult\": " + isAdult)

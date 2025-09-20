@@ -8,15 +8,15 @@ function calculateAreaDeclaration (width, height) {
 
 // Function expression-------------------------------------------
 const calculateAreaExpression = function (width, height) {
-    console.log("Function expression: the area of the rectangle is", width * height);
+    return width * height;
 }
 
 // Use of function expression
-calculateAreaExpression(10, 15);
+console.log("Function expression: the area of the rectangle is", calculateAreaExpression(15, 20));
 
 
 // Arrow function--------------------------------------------------
-const calculateAreaArrow = (width, height) => console.log("Function expression: the area of the rectangle is", width * height);
+const calculateAreaArrow = (width, height) => width * height;
 
 // Use of arrow function
-calculateAreaArrow(25, 50);
+console.log("Arrow function: the area of the rectangle is", calculateAreaArrow(25, 50));

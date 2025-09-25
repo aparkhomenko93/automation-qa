@@ -1,10 +1,10 @@
 //Divide function
 function divide (numerator, denominator) {
     if (typeof(numerator) != "number" || typeof(denominator) != "number")
-        return console.log("The both numerator and denominator must be a numbers.");
+        throw new Error("The both numerator and denominator must be a numbers."); //Error if numerator or denominator are not a number
 
     if(denominator === 0)
-        return console.log("The denominator must be a number.");
+        throw new Error("Denominator cannot be 0.");  //Error for denominator === 0
 
     return numerator / denominator;
 }
@@ -25,7 +25,7 @@ try {
     divide("1", 5);
 }
 catch (error){
-    console.log("The error has occurred:", error);
+    console.log("The error has occurred:", error.message);
 }
 finally {
     console.log("The end of the program.");
@@ -34,18 +34,6 @@ finally {
 //Call of function #3 - case when denominator === 0
 try {
     divide(1, 0);
-}
-catch (error){
-    console.log("The error has occurred:", error);
-}
-finally {
-    console.log("The end of the program.");
-}
-
-//Call of function #4 - test error
-try {
-    divide(1, 0);
-    throw new Error("This is a test error.");  //Error just to show example
 }
 catch (error){
     console.log("The error has occurred:", error.message);

@@ -7,7 +7,7 @@ const personAge = 18;
 const isAdult = personAge >= 18;
 
 //Show the value of bool variable
-console.log("\"isAdult\": " + isAdult)
+console.log("\"isAdult\": " + isAdult);
 
 //Show result in console (text)
 if (isAdult){

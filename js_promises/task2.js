@@ -1,8 +1,8 @@
 // Function to fetch TO DO by id
 
 function fetchTodoById(id) {
-    if (typeof(id) !== 'number' || id < 1)
-        return console.log("Incorrect todoId")
+    if (typeof(id) !== "number" || id < 1)
+        return console.log("Incorrect todoId");
 
     return fetch(`https://jsonplaceholder.typicode.com/todos/${id}`)
         .then(res => res.json())
@@ -11,8 +11,8 @@ function fetchTodoById(id) {
 
 // Function to fetch user by id
 function fetchUserById(id) {
-    if (typeof(id) !== 'number' || id < 1)
-        return console.log("Incorrect userId")
+    if (typeof(id) !== "number" || id < 1)
+        return console.log("Incorrect userId");
 
     return fetch(`https://jsonplaceholder.typicode.com/users/${id}`)
         .then(res => res.json())

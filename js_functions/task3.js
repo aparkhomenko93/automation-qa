@@ -1,5 +1,5 @@
 // Use function and show result in console
-console.log(checkOrder(25, 25))
+console.log(checkOrder(25, 25));
 
 
 // Function to check if order possible

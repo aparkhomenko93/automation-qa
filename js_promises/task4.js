@@ -1,6 +1,6 @@
 // Using of static methods of TodoService and UsersService classes
-import TodoService from './TodoService.js';
-import UserService from './UsersService.js';
+import TodoService from "./TodoService.js";
+import UserService from "./UsersService.js";
 
 const responses = await Promise.all([
     TodoService.fetchById(1),

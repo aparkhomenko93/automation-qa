@@ -1,8 +1,8 @@
 //Function to return message for even num
-const showMessageForEvenNum = () => console.log("The number is even.")
+const showMessageForEvenNum = () => console.log("The number is even.");
 
 //Function to return message for odd num
-const showMessageForOddNum = () => console.log("The number is odd.")
+const showMessageForOddNum = () => console.log("The number is odd.");
 
 
 

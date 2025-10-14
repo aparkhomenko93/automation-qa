@@ -1,7 +1,7 @@
 // Function to fetch TO DO by id using async/await
 
 async function fetchTodoById(id) {
-    if (typeof(id) !== 'number' || id < 1)
+    if (typeof(id) !== "number" || id < 1)
         return console.log("Incorrect todoId");
 
     try {
@@ -19,7 +19,7 @@ async function fetchTodoById(id) {
 
 // Function to fetch user by id using async/await
 async function fetchUserById(id) {
-    if (typeof(id) !== 'number' || id < 1)
+    if (typeof(id) !== "number" || id < 1)
         return console.log("Incorrect userId");
 
     try{

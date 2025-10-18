@@ -1,5 +1,5 @@
 // Creation of array
-const numbers = [2, -5, 0, 7, -3, 0, 10, -8]
+const numbers = [2, -5, 0, 7, -3, 0, 10, -8];
 
 // Creation of variables
 let positiveCount = 0;

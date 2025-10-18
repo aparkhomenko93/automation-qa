@@ -9,7 +9,7 @@ function calculateAreaDeclaration (width, height) {
 // Function expression-------------------------------------------
 const calculateAreaExpression = function (width, height) {
     return width * height;
-}
+};
 
 // Use of function expression
 console.log("Function expression: the area of the rectangle is", calculateAreaExpression(15, 20));

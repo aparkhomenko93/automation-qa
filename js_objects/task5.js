@@ -15,7 +15,7 @@ const users = [
         email: "maryna@example.com",
         age: 32
     }
-]
+];
 
 // Show result in console using for ... of
 for (const user of users) {
